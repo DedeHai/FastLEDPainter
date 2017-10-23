@@ -1,0 +1,25 @@
+FastLEDPainterCanvas	KEYWORD1
+FastLEDPainterBrush	KEYWORD1
+FastLEDPainter	KEYWORD1
+
+clear	KEYWORD2
+transfer	KEYWORD2
+getNumberofPixels	KEYWORD2
+
+isvalid	KEYWORD2
+paint	KEYWORD2
+moveTo	KEYWORD2
+getPosition	KEYWORD2
+setSpeed	KEYWORD2
+getSpeed	KEYWORD2
+setSpeedlimit	KEYWORD2
+setColor	KEYWORD2
+getColor	KEYWORD2
+setFadeSpeed	KEYWORD2
+setFadeout	KEYWORD2
+setFadein	KEYWORD2
+setFadeHueNear	KEYWORD2
+setFadeHueFar	KEYWORD2
+setFadeSaturation_in	KEYWORD2
+setFadeSaturation_out	KEYWORD2
+setBounce	KEYWORD2
