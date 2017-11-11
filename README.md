@@ -77,7 +77,7 @@ implemented the fadings using 16bit variables and bit-shifts (aka fixed point ar
 - **~FastLEDPainterCanvas(void)**
   - class deconstructor, is called automatically when the created class leaves the local scope (i.e. a loop)
 - **bool isvalid(void)**
-  - returns true if memory allocation for the class was successful. Use it if you are not sure if enough memory was available. The canvas uses a lot of memory: 6 bytes per pixel.
+  - returns true if memory allocation for the class was successful. Use it if you are not sure if enough memory was available. The canvas uses a lot of memory: 6 bytes per pixel (3 bytes for HSV color value, 1 byte for fading speed, 1 byte for final fade-to-value, 1 byte to hold the 8 property flag bits)
 - **void clear(void)**
   - clear the canvas from all paint
 - **void transfer(void)**
